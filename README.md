@@ -43,7 +43,7 @@
 |:---:|:---|
 | **Frontend** | HTML5, CSS3, Vanilla JavaScript |
 | **Backend** | Python, Flask |
-| **AI** | Claude API (Anthropic) |
+| **AI** | Groq API |
 | **Deploy** | Render |
 
 ---
@@ -72,4 +72,4 @@
 ## 📌 참고사항
 
 - 첫 접속 시 서버가 슬립 상태일 경우 로딩에 30초~1분 정도 소요될 수 있습니다 (Render 무료 플랜)
-- 타로 해석은 재미와 참고용이며, 중요한 결정은 전문가와 상담하세요 🙏
+- 타로 해석은 재미와 참고용이며, 중요한 결정은 전문가와 상담하세요.
