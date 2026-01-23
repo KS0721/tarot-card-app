@@ -744,9 +744,14 @@ python backend/app.py
 
 ## 📸 스크린샷
 
-| 랜딩 페이지 | 카드 선택 | 결과 페이지 |
-|:---:|:---:|:---:|
-| ![Landing](docs/landing.png) | ![Card Draw](docs/card-draw.png) | ![Result](docs/result.png) |
+### 랜딩 페이지
+<img src="docs/landing.png" alt="랜딩 페이지" width="450">
+
+### 카드 선택
+<img src="docs/card-draw.png" alt="카드 선택" width="800">
+
+### 결과 페이지
+<img src="docs/result.png" alt="결과 페이지" width="800">
 
 ---
 
@@ -754,22 +759,6 @@ python backend/app.py
 
 - 🌐 **서비스**: [https://tarot-card-app-muwu.onrender.com](https://tarot-card-app-muwu.onrender.com)
 - 📝 **개발 블로그**: [티스토리](https://your-blog.tistory.com)
-
----
-
-## 📄 라이선스
-
-MIT License
-
----
-
-## 🙏 감사의 말
-
-- **Groq**: 빠른 LLM API 제공
-- **Supabase**: 강력한 BaaS 플랫폼
-- **Render**: 무료 호스팅 지원
-
----
 
 **⚠️ 주의사항**
 
