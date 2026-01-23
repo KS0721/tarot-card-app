@@ -754,7 +754,6 @@ python backend/app.py
 
 - 🌐 **서비스**: [https://tarot-card-app-muwu.onrender.com](https://tarot-card-app-muwu.onrender.com)
 - 📝 **개발 블로그**: [티스토리](https://your-blog.tistory.com)
-- 📧 **문의**: your-email@example.com
 
 ---
 
