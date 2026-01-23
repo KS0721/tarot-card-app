@@ -618,108 +618,12 @@ CORS(app, origins=['https://tarot-card-app-muwu.onrender.com'])
 
 ---
 
-## 💰 비즈니스 모델
+## 💰 수익 모델
 
 ### 현재 수익원
 | 수익원 | 설명 |
 |:---|:---|
 | **Google AdSense** | 질문 페이지, 결과 페이지, 공유 페이지에 광고 배치 |
-
-### 향후 계획
-| 기능 | 설명 | 예상 가격 |
-|:---|:---|:---:|
-| **프리미엄 구독** | • 광고 제거<br>• 무제한 리딩 기록 저장<br>• 고급 스프레드 (켈트 십자가, 호로스코프 등)<br>• 우선 AI 응답 (대기 없음) | 월 ₩4,900 |
-| **일회성 크레딧** | 10회 프리미엄 리딩 | ₩9,900 |
-
-**예상 전환율:** 무료 사용자 중 2~5% 유료 전환 시 월 수익 ₩500,000+ 목표
-
----
-
-## 🗂 프로젝트 구조
-
-```
-tarot-app/
-├── backend/
-│   ├── app.py                 # Flask 메인 서버
-│   ├── config.py              # 환경변수 설정
-│   ├── routes/
-│   │   ├── api.py            # 질문 분석, 카드 셔플
-│   │   ├── api_interpret.py  # AI 해석 API
-│   │   ├── seo.py            # sitemap, robots.txt
-│   │   └── static.py         # 정적 파일 서빙
-│   ├── utils/
-│   │   ├── groq_api.py       # Groq API 호출 (키 로테이션)
-│   │   ├── text_cleaner.py   # 한국어 텍스트 정제
-│   │   └── cache.py          # 응답 캐싱
-│   └── data/
-│       ├── major_arcana/     # 메이저 아르카나 JSON
-│       └── minor_arcana/     # 마이너 아르카나 JSON
-│
-├── frontend/
-│   ├── pages/
-│   │   ├── index/            # 랜딩 페이지
-│   │   ├── auth/             # 로그인/회원가입
-│   │   ├── question/         # 질문 입력
-│   │   │   └── js/
-│   │   │       ├── question-analyzer.js  # 질문 분석
-│   │   │       └── spread-generator.js   # 스프레드 추천
-│   │   ├── card-draw/        # 카드 선택
-│   │   ├── loading/          # 로딩 애니메이션
-│   │   ├── result/           # 결과 + 채팅
-│   │   │   └── js/
-│   │   │       ├── interpretation.js  # AI 해석 로직
-│   │   │       ├── chat.js            # 추가 질문 채팅
-│   │   │       ├── session.js         # 세션 저장 (QuotaExceeded 핸들링)
-│   │   │       └── result-share.js    # 공유 기능
-│   │   └── share/            # 공유 페이지
-│   └── public/
-│       ├── images/cards/     # 78장 카드 이미지
-│       └── favicon/          # 파비콘
-│
-├── requirements.txt          # Python 의존성
-├── render.yaml              # Render 배포 설정
-└── README.md
-```
-
----
-
-## 🏃 로컬 실행 방법
-
-### 1. 클론 및 의존성 설치
-```bash
-git clone https://github.com/yourusername/tarot-app.git
-cd tarot-app
-
-# Python 가상환경 생성 (선택)
-python -m venv venv
-source venv/bin/activate  # Windows: venv\Scripts\activate
-
-# 의존성 설치
-pip install -r requirements.txt
-```
-
-### 2. 환경변수 설정
-`.env` 파일 생성:
-```env
-# Groq API (최대 5개)
-GROQ_API_KEY=gsk_...
-GROQ_API_KEY_2=gsk_...
-GROQ_API_KEY_3=gsk_...
-
-# Supabase
-SUPABASE_URL=https://xxx.supabase.co
-SUPABASE_ANON_KEY=eyJhbGc...
-
-# Google AdSense (선택)
-ADSENSE_CLIENT=ca-pub-...
-```
-
-### 3. 서버 실행
-```bash
-python backend/app.py
-```
-
-→ http://localhost:5000 접속
 
 ---
 
@@ -759,6 +663,7 @@ python backend/app.py
 
 - 🌐 **서비스**: [https://tarot-card-app-muwu.onrender.com](https://tarot-card-app-muwu.onrender.com)
 - 📝 **개발 블로그**: [티스토리](https://your-blog.tistory.com)
+---
 
 **⚠️ 주의사항**
 
