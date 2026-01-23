@@ -661,7 +661,7 @@ CORS(app, origins=['https://tarot-card-app-muwu.onrender.com'])
 
 ## 🔗 링크
 
-- 🌐 **서비스**: [https://tarot-card-app-muwu.onrender.com](https://tarot-card-app-muwu.onrender.com)
+- 🌐 **서비스**: [Arcana Luna](https://tarot-card-app-muwu.onrender.com)
 - 📝 **개발 블로그**: [티스토리](https://your-blog.tistory.com)
 ---
 
