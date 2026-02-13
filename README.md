@@ -71,7 +71,3 @@
 | PWA | Service Worker + Web App Manifest |
 
 ---
-
-## 📄 라이선스
-
-MIT License
