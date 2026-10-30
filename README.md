@@ -2,7 +2,7 @@
 
 > **"신비로운 달빛 아래 당신의 운명을 읽어드립니다."**
 
-**https://tarot-card-app-muwu.onrender.com**
+**[타로카드 보러가기](https://tarot-1d7z.onrender.com)**
 
 ---
 
