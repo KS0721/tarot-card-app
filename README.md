@@ -2,7 +2,7 @@
 
 > **"신비로운 달빛 아래 당신의 운명을 읽어드립니다."**
 
-**[타로카드 보러가기](https://arcanaluna.r-e.kr)**
+**[타로카드 보러가기](https://tarot-1d7z.onrender.com)**
 
 ---
 
@@ -109,5 +109,5 @@
 
 ## 라이선스
 
-본 프로젝트는 [Apache License 2.0](https://www.apache.org/licenses/LICENSE-2.0)을 따릅니다.  
+[Apache License 2.0](https://www.apache.org/licenses/LICENSE-2.0)을 따릅니다.  
 AI 추론에 사용된 `openai/gpt-oss-120b` 모델 역시 Apache 2.0 라이선스 및 OpenAI gpt-oss 이용 정책(Usage Policy)을 준수합니다.
